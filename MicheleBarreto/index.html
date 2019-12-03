@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="endereco">
+            <h1 class="endereco__title">Adicione um endereço de entrega</h1>
+            <h2 class="endereco__subtitle"></h2>
+            <form action="" class="endereco__form">
+                <div class="endereco__form-group">
+                    <label for="enderecoInputNome" class="endereco__label">Nome</label>
+                    <input type="text" class="endereco__input" id="enderecoInputNome">
+                </div>
+                <div class="endereco__form-group">
+                    <label for="enderecoInputCEP" class="endereco__label">CEP</label>
+                    <input type="number" class="endereco__input" id="enderecoInputCEP">
+                </div>
+                <div class="endereco__form-group">
+                    <label for="enderecoInputRua" class="endereco__label">Rua</label>
+                    <input type="text" class="endereco__input" id="enderecoInputRua">
+                </div>
+                <div class="endereco__form-group">
+                    <label for="enderecoInputNumero" class="endereco__label">Número</label>
+                    <input type="number" class="endereco__input" id="enderecoInputNumero">
+                </div>
+                <div class="endereco__form-group">
+                    <label for="enderecoInputComplemento" class="endereco__label">Complemento</label>
+                    <input type="number" class="endereco__input" id="enderecoInputComplemento">
+                </div>
+                <div class="endereco__form-group">
+                    <button class="button endereco__button">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div id="lista" class="lista_enderecos">
+        </div>
+    </div>
+    <script src="javascript/exercasa.js"></script>
+</body>
+</html>
